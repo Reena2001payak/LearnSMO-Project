@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(111, 226, 226);
+}
+
+.upper-section {
+  background-color: rgb(126, 160, 150);
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.upper-section .logo-section img {
+  height: 70px;
+  width: 140px;
+  border-radius: 10px;
+}
+.upper-section .login-bttn .login {
+  padding: 15px;
+  background-color: rgb(47, 179, 168);
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s all ease-in-out;
+}
+.upper-section .login-bttn .login:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(47, 179, 168);
+}
+
+.navigation-bar {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigation-bar .nav-options ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigation-bar .nav-options ul li {
+  list-style: none;
+  padding: 15px;
+}
+.navigation-bar .nav-options ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.navigation-bar .phone-number ul {
+  display: flex;
+  flex-direction: row;
+}
+.navigation-bar .phone-number ul li {
+  list-style: none;
+  padding: 3px;
+}
+.navigation-bar .proceed-bttn .proceed {
+  padding: 10px;
+  background-color: rgb(47, 179, 168);
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  border: none;
+}
+.navigation-bar .proceed-bttn .proceed:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(47, 179, 168);
+}
+
+.contact-section {
+  background-color: rgb(47, 179, 168);
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-section .address ul {
+  display: flex;
+  flex-direction: row;
+}
+.contact-section .address ul li {
+  list-style: none;
+}
+.contact-section .address ul li a {
+  color: black;
+  padding: 3px;
+  text-decoration: none;
+}
+.contact-section .address ul li a:hover {
+  text-decoration: underline;
+}
+.contact-section .e-mail ul {
+  display: flex;
+  flex-direction: row;
+}
+.contact-section .e-mail ul li {
+  list-style: none;
+}
+.contact-section .e-mail ul li a {
+  padding: 3px;
+  color: black;
+  text-decoration: none;
+}
+.contact-section .e-mail ul li a:hover {
+  text-decoration: underline;
+}
+.contact-section .whatsapp ul {
+  display: flex;
+  flex-direction: row;
+}
+.contact-section .whatsapp ul li {
+  list-style: none;
+}
+.contact-section .whatsapp ul li a {
+  padding: 3px;
+  color: black;
+  text-decoration: none;
+}
+.contact-section .whatsapp ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-box {
+  width: fit-content;
+  border: none;
+  height: 500px;
+  margin: 70px 140px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between; */
+
+}
+.main-box > h2{
+  text-align: center; 
+  padding: 5px;
+}
+.main-box .form-box {
+  width: 50%;
+  margin-top: 30px;
+  margin-right: 100px;
+  border-radius: 20px 0px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  height: 300px;
+  background-color: rgb(157, 189, 179);
+  padding: 60px 30px;
+  margin-left: 90px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+}
+.main-box .form-box label input {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 2px 8px;
+}
+.main-box .form-box input{
+  border: 1px solid rgba(111, 19, 112, 0.081);
+  padding: 5px;
+  margin-top: 8px;
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+}
+.main-box .form-box .login{
+  margin-top: 20px;
+  background: rgb(4, 74, 225);
+  color:  #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  width: 35%;
+  
+  
+}
+.main-box .form-box .login-bttn .login {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: rgb(47, 179, 168);
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  border: none;
+  transition: 0.5s all ease-in-out;
+}
+.main-box .form-box .login-bttn .login:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(47, 179, 168);
+}
+.main-box .image-box img {
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.footer {
+  height: 400px;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.footer .upper-box {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: flex-start;
+}
+.footer .upper-box .footer-items {
+  color:black;
+}
+.footer .upper-box .footer-items .footer-heading {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.footer .upper-box .footer-items .footer-subpoints {
+  margin-top: 20px;
+}
+.footer .upper-box .footer-items .footer-subpoints ul li {
+  list-style: none;
+}
+.footer .upper-box .footer-items .footer-subpoints ul li a {
+  color:black;
+  text-decoration: none;
+  padding: 20px;
+}
+.footer .upper-box .footer-items .footer-subpoints ul li a:hover {
+  text-decoration: underline;
+}
+.footer .lower-box {
+  margin-top: 80px;
+  margin-left: 70px;
+}
+.footer .lower-box .symbols ul {
+  display: flex;
+  flex-direction: row;
+}
+.footer .lower-box .symbols ul li {
+  list-style: none;
+  color: black;
+  padding: 10px;
+}
+.footer .lower-box .symbols ul li:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: serif;
+  background-color: rgb(111 226 226);
+}
+
+.upper-section {
+  background-color: rgb(126, 160, 150);
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+
+.upper-section .logo-section img {
+  height: 70px;
+  width: 140px;
+  border-radius: 10px;
+}
+
+.upper-section .login-bttn .login {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: rgb(47, 179, 168);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.upper-section .login-bttn .login:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(47, 179, 168);
+}
+
+/* Navigation Bar */
+.navigation-bar {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navigation-bar .nav-options ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigation-bar .nav-options ul li {
+  padding: 15px;
+}
+
+.navigation-bar .nav-options ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+.proceed-bttn  a {
+  text-decoration: none;
+}
+
+.navigation-bar .proceed-bttn .proceed {
+  padding: 10px 20px;
+  background-color: rgb(47, 179, 168);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease-in-out;
+  text-decoration: none; /* Ensures the link looks like a button */
+  display: inline-block; /* Keeps button-like appearance */
+}
+
+.navigation-bar .proceed-bttn .proceed:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(47, 179, 168);
+}
+
+
+/* Contact Section */
+.contact-section {
+  background-color: rgb(47, 179, 168);
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-section ul {
+  display: flex;
+  list-style: none;
+}
+
+.contact-section li {
+  padding: 0 10px;
+}
+
+.contact-section a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+
+.appointment-box {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .appointment-details {
+    border-radius: 20px;
+    padding: 80px;
+    background-color: rgb(171, 222, 207);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    label {
+      input {
+        padding: 2px 10px;
+      }
+    }
+
+    .cnfrm-bttn {
+      margin-top: 70%;
+      margin-left: -85%;
+      .appointment {
+        padding: 5px 15px;
+        background-color: rgb(47, 179, 168);
+        color: white;
+        font-weight: bolder;
+        border: none;
+        border-radius: 10px;
+        transition: 0.5s all ease-in-out;
+
+        &:hover {
+          background-color: white;
+          color: rgb(47, 179, 168);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .side-image {
+    img {
+      height: 400px;
+      border-radius: 0px 20px;
+    }
+  }
+}
+
+.footer {
+  height: 220px;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+
+  .upper-box {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+
+    .footer-items {
+      color: white;
+
+      .footer-heading {
+        font-size: 20px;
+        font-weight: bolder;
+      }
+
+      .footer-subpoints {
+        margin-top: 20px;
+
+        ul {
+          li {
+            list-style: none;
+
+            a {
+              color: white;
+              text-decoration: none;
+              padding: 20px;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .lower-box {
+    margin-top: 80px;
+    margin-left: 70px;
+
+    .symbols {
+      ul {
+        display: flex;
+        flex-direction: row;
+
+        li {
+          list-style: none;
+          color: black;
+          padding: 10px;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

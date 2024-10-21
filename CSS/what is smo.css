@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Serif", sans-serif;
+  background-color: rgb(111, 226, 226);
+}
+
+.work {
+  text-align: center;
+}
+
+.upper-section {
+  background-color: rgb(126, 160, 150);
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.upper-section .logo-section img {
+  height: 70px;
+  width: 140px;
+  border-radius: 10px;
+}
+
+.upper-section .login-bttn .login {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: rgb(47, 179, 168);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.upper-section .login-bttn .login:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(47, 179, 168);
+}
+
+/* Navigation Bar */
+.navigation-bar {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navigation-bar .nav-options ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigation-bar .nav-options ul li {
+  padding: 15px;
+}
+
+.navigation-bar .nav-options ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+.navigation-bar .proceed-bttn .proceed {
+  padding: 10px 20px;
+  background-color: rgb(47, 179, 168);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.navigation-bar .proceed-bttn .proceed:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(47, 179, 168);
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: rgb(47, 179, 168);
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-section ul {
+  display: flex;
+  list-style: none;
+}
+
+.contact-section li {
+  padding: 0 10px;
+}
+
+.contact-section a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+.smoabout {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+  border-radius: 50px 0px;
+  margin: 50px;
+  padding: 20px;
+  width: 90%;
+  height: 500px;
+  background-color: rgb(171, 222, 207);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-three .left-box h3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.pera p {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.smoaboutclass {
+  border-radius: 10px;
+  width: 50%;
+  height: 70%;
+  margin-right: 10px;
+}
+
+
+.footer {
+  margin-top: 10%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .upper-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer .footer-items {
+  color: black;
+}
+
+.footer .footer-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer .footer-subpoints ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.footer .footer-subpoints ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.footer .footer-subpoints ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .lower-box {
+  padding: 20px 70px;
+}
+
+.footer .symbols ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer .symbols ul li {
+  padding: 10px;
+}
+
+#smosecond {
+  display: flex;
+  flex-wrap: nowrap;
+  /* Ensures items stay in a single row */
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  /* Adds space between the video cards */
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  /* Keeps the text and video vertically aligned */
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px;
+}
+
+.proced {
+  background-color: rgb(124, 186, 249);
+  color: black;
+  border-radius: 3px;
+  border: none;
+}
