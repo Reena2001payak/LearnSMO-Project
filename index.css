@@ -1,0 +1,399 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Serif", sans-serif;
+  background-color: rgb(111, 226, 226);
+}
+.work {
+  text-align: center;
+}
+
+/* login page css  */
+.form-container{
+  border: 1px solid rebeccapurple;
+  width: 50%;
+  height: 400px;
+}
+
+/* Upper Section */
+.upper-section {
+  background-color: rgb(126, 160, 150);
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.upper-section .logo-section img {
+  height: 70px;
+  width: 140px;
+  border-radius: 10px;
+}
+
+.upper-section .login-bttn .login {
+  padding: 10px 20px;
+  background-color: rgb(47, 179, 168);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.upper-section .login-bttn .login:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(47, 179, 168);
+}
+
+.upper-section .login-bttn .sign-in{
+  padding: 10px 20px;
+  background-color: rgb(47, 179, 168);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+  /* display: none; */
+}
+
+
+
+/* Navigation Bar */
+
+#sign-in-btn{
+  padding: 10px 20px;
+  background-color: rgb(47, 179, 168);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+.navigation-bar {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navigation-bar .nav-options ul {
+  display: flex;
+  list-style: none;
+}
+
+.navigation-bar .nav-options ul li {
+  padding: 15px;
+}
+
+.navigation-bar .nav-options ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navigation-bar .proceed-bttn .proceed {
+  padding: 10px 20px;
+  background-color: rgb(47, 179, 168);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.navigation-bar .proceed-bttn .proceed:hover {
+  cursor: pointer;
+  background-color: white;
+  color: rgb(47, 179, 168);
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: rgb(47, 179, 168);
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-section ul {
+  display: flex;
+  list-style: none;
+}
+
+.contact-section li {
+  padding: 0 10px;
+}
+
+.contact-section a {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+/* First Section */
+.first-section {
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.first-section .welcome-section pre {
+  color: rgb(14, 80, 74);
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.first-section .welcome-section .heading {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+}
+
+.first-section .welcome-section .discover {
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(14, 80, 74);
+  padding: 15px 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.first-section .welcome-section .discover:hover {
+  color: rgb(14, 80, 74);
+  background-color: white;
+  cursor: pointer;
+}
+
+.first-section .image-section img {
+  border-radius: 20px;
+  height: 450px;
+}
+
+/* Dedicated Section */
+.dedicated-section {
+  background-color: rgb(11, 157, 145);
+  height: 200px;
+  border-radius: 20px;
+  width: 90%;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.dedicated-section .title h2 {
+  font-size: 40px;
+  color: white;
+}
+
+.dedicated-section .brief p {
+  font-size: 17px;
+}
+
+/* Second Section */
+.riya {
+  text-align: center;
+}
+
+.seconimg {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  width: 40vh;
+  height: 100vh;
+  align-self: center;
+  margin-top: 5px;
+}
+
+.services {
+margin: 5px;
+margin-left: 10px;
+}
+
+.bttn-box button {
+  background-color: rgb(183, 181, 181);
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.bttn-box button:hover {
+  background-color: rgb(120, 114, 114);
+}
+
+/* Section Three */
+.section-three {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+  border-radius: 50px 0px;
+  margin: 50px;
+  padding: 20px;
+  width: 90%;
+  height: 500px;
+  background-color: rgb(171, 222, 207);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-three .left-box h3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.section-three .paragraph p {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.section-three .appointment {
+  padding: 15px;
+  background-color: rgb(47, 179, 168);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s ease-in-out;
+}
+
+.section-three .appointment:hover {
+  background-color: white;
+  color: rgb(47, 179, 168);
+}
+
+.right-box img {
+  border-radius: 10px;
+}
+
+/* Section Four */
+.section-four {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+  border-radius: 50px 0px;
+  margin: 50px;
+  padding: 20px;
+  width: 90%;
+  height: 500px;
+  background-color: rgb(171, 222, 207);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section-four .left-box h4 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.section-four .left-box ul li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.section-four .right-box img {
+  height: 450px;
+  border-radius: 20px;
+}
+
+/* Footer Section */
+.footer {
+  margin-top: 10%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .upper-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer .footer-items {
+  color: black;
+}
+
+.footer .footer-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer .footer-subpoints ul {
+  margin-top: 20px;
+  list-style: none;
+}
+
+.footer .footer-subpoints ul li a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.footer .footer-subpoints ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer .lower-box {
+  padding: 20px 70px;
+}
+
+.footer .symbols ul {
+  display: flex;
+  list-style: none;
+}
+
+.footer .symbols ul li {
+  padding: 10px;
+}
+#smosecond {
+  display: flex;
+  flex-wrap: nowrap; /* Ensures items stay in a single row */
+  
+  align-items: center;
+  gap: 10px; /* Adds space between the video cards */
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column; /* Keeps the text and video vertically aligned */
+  justify-content: center;
+  
+  width: 480px;
+  background-color: rgb(175, 118, 249);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px;
+  height: 400px;
+}
+.proced{background-color: rgb(124, 186, 249);
+color: black;
+border-radius: 3px;
+border: none;
+}
+.book{
+  display: flex;
+  flex-direction: column; /* Keeps the text and video vertically aligned */
+  justify-content: center;
+  
+  width: 680px;
+  background-color: rgb(90, 176, 243);
+  border-radius: 10px;
+  box-shadow: rgba(8, 0, 0, 0.24) 0px 3px 8px;
+  margin: 10px;
+  height: 400px;
+  
+}
